@@ -1,0 +1,69 @@
+/* Estilo para el header */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: -60px;
+}
+
+/* Estilo para el nav */
+nav {
+    text-align: center;
+}
+
+/* Estilo para los enlaces de navegación en el nav */
+nav ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de lista en línea (horizontalmente) */
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none; /* Quita la decoración de subrayado de los enlaces */
+    color: black;
+}
+
+/* Estilo para las secciones */
+section {
+    border: 2px solid black;
+    margin-bottom: 75px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para el texto en las secciones */
+section article {
+    font-size: 18px; 
+    color: black; 
+}
+
+/* Estilo para el contenedor de la imagen */
+.image-container {
+    display: inline-block; /* Permite centrar horizontalmente */
+}
+
+/* Estilo para la imagen */
+.image-container img {
+    max-width: 55%; /* Cambia el valor para hacer la imagen más pequeña (por ejemplo, al 80%) */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+/* Estilo para la imagen cuando se pasa el ratón por encima */
+.image-container img:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al 105% (puedes ajustar el valor según tu preferencia) */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
